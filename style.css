@@ -773,14 +773,30 @@
       background-repeat: no-repeat;
     }
 
-    .g1 { background-image: url("../img/rotavator.jpg"); }
-    .g2 { background-image: url("../img/plough.jpg"); }
-    .g3 { background-image: url("../img/trolly.jpg"); }
-    .g4 { background-image: url("../img/gate.jpg"); }
-    .g5 { background-image: url("../img/hydaulic.jpg"); }
-    .g6 { background-image: url("../img/cultivater.jpg"); }
-    .g7 { background-image: url("../img/gates.jpg"); }
-    .g8 { background-image: url("../img/strair3.jpg"); }
+    .g1 { 
+          background-image: url("rotavator.jpg"); 
+        }
+    .g2 { 
+          background-image: url("plough.jpg"); 
+        }
+    .g3 { 
+          background-image: url("trolly.jpg"); 
+         }
+    .g4 { 
+          background-image: url("gate.jpg"); 
+        }
+    .g5 {
+          background-image: url("hydaulic.jpg"); 
+        }
+    .g6 {
+          background-image: url("cultivater.jpg"); 
+        }
+    .g7 {
+          background-image: url("gates.jpg"); 
+        }
+    .g8 { 
+          background-image: url("strair3.jpg");
+        }
 
     /* ============ CONTACT ============ */
     .contact-grid {
