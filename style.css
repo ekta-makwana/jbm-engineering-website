@@ -1,4 +1,4 @@
-:root {
+/* :root {
       --iron-black: #648151;
       --steel: #171e19;
       --steel-light: #110e0e;
@@ -10,6 +10,24 @@
       --text: #070906;
       --text-soft: #060604;
       --white: #bbb29a;
+
+      --font-display: 'Oswald', sans-serif;
+      --font-body: 'Archivo', sans-serif;
+      --font-mono: 'IBM Plex Mono', monospace;
+    } */
+
+    :root {
+      --iron-black: #1c384f;
+      --steel: #171e19;
+      --steel-light: #110e0e;
+      --rust: #468c8c;
+      --rust-dark: #8f3414;
+      --wheat: #6faf94;
+      --cream: #f2ede2;
+      --cream-dim: #e7dfcd;
+      --text: #070906;
+      --text-soft: #060604;
+      --white: #77c6c2;
 
       --font-display: 'Oswald', sans-serif;
       --font-body: 'Archivo', sans-serif;
@@ -511,7 +529,7 @@
     .fact-cell {
       background: var(--white);
       padding: 22px 20px;
-      box-shadow: 0 2px 6px rgba(28, 31, 26, 0.08);
+      box-shadow: 0 2px 6px rgba(29, 87, 114, 0.08);
       transition: transform 0.25s ease, box-shadow 0.25s ease;
     }
 
@@ -773,30 +791,14 @@
       background-repeat: no-repeat;
     }
 
-    .g1 { 
-          background-image: url("rotavator.jpg"); 
-        }
-    .g2 { 
-          background-image: url("plough.jpg"); 
-        }
-    .g3 { 
-          background-image: url("trolly.jpg"); 
-         }
-    .g4 { 
-          background-image: url("gate.jpg"); 
-        }
-    .g5 {
-          background-image: url("hydaulic.jpg"); 
-        }
-    .g6 {
-          background-image: url("cultivater.jpg"); 
-        }
-    .g7 {
-          background-image: url("gates.jpg"); 
-        }
-    .g8 { 
-          background-image: url("strair3.jpg");
-        }
+    .g1 { background-image: url("rotavator.jpg"); }
+    .g2 { background-image: url("plough.jpg"); }
+    .g3 { background-image: url("trolly.jpg"); }
+    .g4 { background-image: url("gate.jpg"); }
+    .g5 { background-image: url("hydaulic.jpg"); }
+    .g6 { background-image: url("cultivater.jpg"); }
+    .g7 { background-image: url("gates.jpg"); }
+    .g8 { background-image: url("strair3.jpg"); }
 
     /* ============ CONTACT ============ */
     .contact-grid {
